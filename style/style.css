@@ -1,0 +1,91 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position:relative;
+    width: 100%;
+    background: #eff4fd;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button:hover{
+    background-color:rgb(62, 180, 248);
+   
+    
+}
+a{
+text-decoration: none;
+font-weight: bold;
+color: rgb(225, 235, 244);
+
+}
+a:hover{
+    color:rgb(244, 9, 138);
+}
+.logo{
+    width: 80px;
+    border-radius: 30px;
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+   
+}
+h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.name{
+    color:rgb(24, 142, 24);
+}
+.cv{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px;
+}
+.home{
+    background: rgb(27, 131, 216);
+    padding: 7px 11px;
+    border-radius: 30px;
+    transition: background-color .5s,color .5s;
+
+}
+.home:hover{
+    background-color: rgb(46, 152, 239);
+    color: red;
+}
+.profile{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.profile img{
+    height: 100%;
+    position:absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.profile:hover .light{
+    bottom: 40px;
+}
+.profile:hover .sakib{
+   left: 45%;
+}
